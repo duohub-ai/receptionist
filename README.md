@@ -1,4 +1,4 @@
-# DuoHub Transfer - AI Receptionist Bot
+# Transfer - AI Receptionist Bot
 
 A virtual receptionist powered by AI that handles calls, checks availability, transfers calls, and takes messages. This project serves as a demonstration for legal companies on how to implement intelligent call transfers with VOIP systems.
 
