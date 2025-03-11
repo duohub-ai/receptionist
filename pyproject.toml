@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "agent"
+version = "0.1.0"
+description = ""
+authors = ["Oseh Mathias <o@matmail.me>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+fastapi = "^0.115.8"
+uvicorn = "^0.34.0"
+pipecat-ai = {extras = ["cartesia", "daily", "openai", "silero"], version = "^0.0.58"}
+zep-cloud = "^2.4.0"
+boto3 = "^1.36.21"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
